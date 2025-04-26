@@ -2,13 +2,14 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "starter-cloudflare-worker",
   "main": "src/index.ts",
-  "compatibility_date": "2025-04-26"
+  "compatibility_date": "2025-04-26",
   // "compatibility_flags": [
   //   "nodejs_compat"
   // ],
-  // "vars": {
-  //   "MY_VAR": "my-variable"
-  // },
+  "vars": {
+    "MY_VAR": "my-variable",
+    "PROMPT": "hello world"
+  }
   // "kv_namespaces": [
   //   {
   //     "binding": "MY_KV_NAMESPACE",
